@@ -1,0 +1,39 @@
+.TaskForm{
+    position: relative;
+    background: #61dafb;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+}
+input{
+    width: 70%;
+}
+.TodoItem{
+    background: azure;
+    margin: 4px;
+    box-sizing: border-box;
+}
+.add_btn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background: crimson;
+    color: darkslategray;
+    font-weight: bold;
+}
+.del_btn{
+    padding: 0 4px;
+    background: #282c34;
+    color: aliceblue;
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p{
+    text-align: left;
+    padding: 4px;
+    clear: right;
+}
